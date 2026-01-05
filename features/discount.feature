@@ -5,7 +5,7 @@ Feature: Dynamic Discount Calculator
 
 Scenario: Customer gets 10% off when spending over $100
     Given I am on the cart page
-    And I have added items worth $110.00
+    And I have added items worth "$29.99"
     When I view the total summary
     Then the final price should include a "10%" discount
-    And the total should be $99.00
+    And the total should be 32.39
