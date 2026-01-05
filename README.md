@@ -22,5 +22,6 @@ Design Pattern: Page Object Model (POM) for strict separation of concerns.
 
 # How to Run: 
 ```
-npm install npx cucumber-js
+npm install 
+npx cucumber-js
 ```
